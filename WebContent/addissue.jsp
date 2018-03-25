@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Add new issue here</title>
 </head>
+<%@include file="menu.jsp" %>
 <body>
 <h1>Insert new book issue here.</h1>
 <form action="post"  target="">

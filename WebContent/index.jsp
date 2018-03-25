@@ -10,7 +10,7 @@
 <HEAD>
 <TITLE>Welcome to the Hitarth Bookstore </TITLE>
 </HEAD>
-
+<%@include file="menu.jsp" %>
 <BODY>
 	<H1>Welcome to the Hitarth Bookstore </H1>
 	<list>
