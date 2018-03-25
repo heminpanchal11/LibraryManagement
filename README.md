@@ -1,6 +1,6 @@
 # LibraryManagement
 
-
+CREATE SCHEMA `librarymaindb` ;
 here is sql statements
 
 CREATE TABLE `BookIssues` (
