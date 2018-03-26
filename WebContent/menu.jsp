@@ -11,23 +11,23 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="index.jsp">LibraryManagement</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Issue
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">New</a></li>
-          <li><a href="#">List</a></li>
+          <li><a href="addissue.jsp">New</a></li>
+          <li><a href="index.jsp">List</a></li>
         </ul>
       </li>
        <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Books
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">List</a></li>
-          <li><a href="#">Add</a></li>
+          <li><a href="bookslist.jsp">List</a></li>
+          <li><a href="BookForm.jsp">Add</a></li>
           <li><a href="#">Update</a></li>
           <li><a href="#">Delete</a></li>
         </ul>
