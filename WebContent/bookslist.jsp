@@ -17,13 +17,13 @@
 
 	<%
 		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/LibraryMainDb?", "root",
-				"123456");
+				"root");
 
 		Statement statement = connection.createStatement();
 		ResultSet resultset = statement.executeQuery("select * from Books");
 	%>
 
-	<TABLE BORDER="1">
+	<TABLE class="table table-striped">
 		<TR>
 			<TH>ID</TH>
 			<TH>Book name</TH>
@@ -56,7 +56,7 @@
 			<TD><%=resultset.getString(9)%></TD>
 			<TD><%=resultset.getString(10)%></TD>
 			<TD><a href="editBook?id=<%=resultset.getString(1)%>">Edit</a></td>
-			<TD><a href="deleteBook?id=<%=resultset.getString(1)%>">Delete</a></td>
+			<TD><a href="deleteBook.jsp?id=<%=resultset.getString(1)%>">Delete</a></td>
 		</TR>
 		<%
 			}

@@ -20,13 +20,13 @@
 
 	<%
 		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/LibraryMainDb?", "root",
-				"123456");
+				"root");
 
 		Statement statement = connection.createStatement();
 		ResultSet resultset = statement.executeQuery("select * from BookIssues");
 	%>
 
-	<TABLE BORDER="1">
+	<TABLE class="table table-striped">
 		<TR>
 			<TH>ID</TH>
 			<TH>BookId</TH>

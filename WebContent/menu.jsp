@@ -36,8 +36,8 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">User
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">List</a></li>
-          <li><a href="#">Add</a></li>
+          <li><a href="userslist.jsp">List</a></li>
+          <li><a href="userform.jsp">Add</a></li>
           <li><a href="#">Update</a></li>
           <li><a href="#">Delete</a></li>
         </ul>
