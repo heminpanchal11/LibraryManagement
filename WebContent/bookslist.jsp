@@ -28,7 +28,7 @@
 			<TH>ID</TH>
 			<TH>Book name</TH>
 			<TH>Year</TH>
-			<TH>Publisher Name/TH>
+			<TH>Publisher Name</TH>
 			<TH>Edition</TH>
 			<TH>Description</TH>
 			<TH>Price</TH>
