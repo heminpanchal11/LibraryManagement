@@ -12,14 +12,14 @@
 <form class="form-horizontal" action="insertUser.jsp"  method="post">
 	
 	<div class="form-group">
-      <label class="control-label col-sm-2">User First Name:</label>
+      <label class="control-label col-sm-2">First Name:</label>
       <div class="col-sm-10">
         <input class="col-sm-6" style="background-color:lavender;" type="text" name="user_fname" placeholder="Enter Student First Name">
       </div>
     </div>
     
     <div class="form-group">
-      <label class="control-label col-sm-2">User Last Name:</label>
+      <label class="control-label col-sm-2">Last Name:</label>
       <div class="col-sm-10">
         <input class="col-sm-6" style="background-color:lavender;" type="text" name="user_lname" placeholder="Enter Student Last Name">
       </div>

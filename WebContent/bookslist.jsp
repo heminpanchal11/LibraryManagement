@@ -55,7 +55,7 @@
 			<TD><%=resultset.getString(8)%></TD>
 			<TD><%=resultset.getString(9)%></TD>
 			<TD><%=resultset.getString(10)%></TD>
-			<TD><a href="editBook?id=<%=resultset.getString(1)%>">Edit</a></td>
+			<TD><a href="editBookForm.jsp?id=<%=resultset.getString(1)%>">Edit</a></td>
 			<TD><a href="deleteBook.jsp?id=<%=resultset.getString(1)%>">Delete</a></td>
 		</TR>
 		<%

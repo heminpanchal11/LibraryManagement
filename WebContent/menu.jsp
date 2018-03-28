@@ -28,8 +28,7 @@
         <ul class="dropdown-menu">
           <li><a href="bookslist.jsp">List</a></li>
           <li><a href="BookForm.jsp">Add</a></li>
-          <li><a href="#">Update</a></li>
-          <li><a href="#">Delete</a></li>
+          
         </ul>
       </li>
        <li class="dropdown">
@@ -38,8 +37,7 @@
         <ul class="dropdown-menu">
           <li><a href="userslist.jsp">List</a></li>
           <li><a href="userform.jsp">Add</a></li>
-          <li><a href="#">Update</a></li>
-          <li><a href="#">Delete</a></li>
+          
         </ul>
       </li>
     </ul>

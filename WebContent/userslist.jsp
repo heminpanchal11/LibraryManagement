@@ -53,7 +53,7 @@
 			<TD><%=resultset.getString(7)%></TD>
 			<TD><%=resultset.getString(8)%></TD>
 			<TD><%=resultset.getString(9)%></TD>
-			<TD><a href="editUser?id=<%=resultset.getString(1)%>">Edit</a></td>
+			<TD><a href="editUserForm.jsp?id=<%=resultset.getString(1)%>">Edit</a></td>
 			<TD><a href="deleteUser.jsp?id=<%=resultset.getString(1)%>">Delete</a></td>
 		</TR>
 		<%

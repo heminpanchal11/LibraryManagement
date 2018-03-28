@@ -12,7 +12,7 @@
 </HEAD>
 <%@include file="menu.jsp" %>
 <BODY>
-	<H1>Welcome to the Hitarth Bookstore </H1>
+	<H1>Welcome to the Bookstore </H1>
 	<list>
 	<li><a href="addissue.jsp"> Issue</a></li>
 	
