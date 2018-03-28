@@ -10,66 +10,59 @@
 <body>
 
 <form class="form-horizontal" action="insertUser.jsp"  method="post">
-
-	<div class="form-group">
-      <label class="control-label col-sm-2">User ID:</label>
-      <div class="col-sm-10">
-        <input type="text" name="user_id" placeholder="Enter Student ID">
-      </div>
-    </div>
 	
 	<div class="form-group">
       <label class="control-label col-sm-2">User First Name:</label>
       <div class="col-sm-10">
-        <input type="text" name="user_fname" placeholder="Enter Student First Name">
+        <input class="col-sm-6" style="background-color:lavender;" type="text" name="user_fname" placeholder="Enter Student First Name">
       </div>
     </div>
     
     <div class="form-group">
       <label class="control-label col-sm-2">User Last Name:</label>
       <div class="col-sm-10">
-        <input type="text" name="user_lname" placeholder="Enter Student Last Name">
+        <input class="col-sm-6" style="background-color:lavender;" type="text" name="user_lname" placeholder="Enter Student Last Name">
       </div>
     </div>
     
     <div class="form-group">
       <label class="control-label col-sm-2">Semester:</label>
       <div class="col-sm-10">
-        <input type="text" name="user_sem" placeholder="Enter Semester in Which Student is Studying">
+        <input class="col-sm-6" style="background-color:lavender;" type="text" name="user_sem" placeholder="Enter Semester in Which Student is Studying">
       </div>
     </div>
     
     <div class="form-group">
       <label class="control-label col-sm-2">Email:</label>
       <div class="col-sm-10">
-        <input type="text" name="user_email" placeholder="Enter Student Email">
+        <input class="col-sm-6" style="background-color:lavender;" type="text" name="user_email" placeholder="Enter Student Email">
       </div>
     </div>
     
     <div class="form-group">
       <label class="control-label col-sm-2">Gender:</label>
       <div class="col-sm-10">
-        <input type="text" name="user_gender" placeholder="Male/Female">
+        <input class="col-sm-6" style="background-color:lavender;" type="text" name="user_gender" placeholder="Male/Female">
       </div>
     </div>
     
     <div class="form-group">
       <label class="control-label col-sm-2">Address:</label>
       <div class="col-sm-10">
-        <input type="text" name="user_address" placeholder="Enter Student Address">
+        <input class="col-sm-10" style="background-color:lavender;" type="text" name="user_address" placeholder="Enter Student Address">
       </div>
     </div>
     
     <div class="form-group">
       <label class="control-label col-sm-2">Contact No.:</label>
       <div class="col-sm-10">
-        <input type="text" name="user_contact" placeholder="Enter contact Number of Student">
+        <input class="col-sm-6" style="background-color:lavender;" type="text" name="user_contact" placeholder="Enter contact Number of Student">
       </div>
     </div>
     
 	<div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default" name="submit">Add Student to Database</button>
+        <button type="submit" class="btn btn-primary btn-lg" name="submit">Add Student to Database</button>
       </div>
     </div>
     

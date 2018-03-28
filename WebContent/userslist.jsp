@@ -26,14 +26,14 @@
 	<TABLE class="table table-striped">
 		<TR>
 			<TH>User ID</TH>
-			<TH>User First Name</TH>
-			<TH>User Last Name</TH>
-			<TH>User Sem </TH>
-			<TH>User email</TH>
-			<TH>User Gender</TH>
-			<TH>User Address</TH>
-			<TH>User contact</TH>
-			<TH>User Bookcount</TH>
+			<TH>First Name</TH>
+			<TH>Last Name</TH>
+			<TH>Sem </TH>
+			<TH>email</TH>
+			<TH>Gender</TH>
+			<TH>Address</TH>
+			<TH>contact</TH>
+			<TH>Bookcount</TH>
 			<TH>Edit</TH>
 			<TH>Delete</TH>
 
