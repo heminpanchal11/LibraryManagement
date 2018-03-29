@@ -1,17 +1,18 @@
 <%@page import="java.sql.*,java.util.*"%>
 <%
 int id=1;
-String name=request.getParameter("book_name");
-String year=request.getParameter("year");
-String publisher = request.getParameter("publisher");
-int edition = Integer.parseInt(request.getParameter("edition"));
-String desc = request.getParameter("discription");
-double price = Double.parseDouble(request.getParameter("price"));
-int tcopies = Integer.parseInt(request.getParameter("tcopies"));
-String auth = request.getParameter("author");
+
 
  try{
-  Class.forName("com.mysql.jdbc.Driver");
+	 String name=request.getParameter("book_name");
+	 String year=request.getParameter("year");
+	 String publisher = request.getParameter("publisher");
+	 int edition = Integer.parseInt(request.getParameter("edition"));
+	 String desc = request.getParameter("discription");
+	 double price = Double.parseDouble(request.getParameter("price"));
+	 int tcopies = Integer.parseInt(request.getParameter("tcopies"));
+	 String auth = request.getParameter("author");
+  	Class.forName("com.mysql.jdbc.Driver");
     Connection con = DriverManager.getConnection("jdbc:mysql://localhost/LibraryMainDb?", "root","root");
     Statement st=con.createStatement();
     ResultSet check = st.executeQuery("select exists(select * from books)");
@@ -31,5 +32,6 @@ String auth = request.getParameter("author");
  }
  catch(Exception e){
  	e.printStackTrace();
+ 	response.sendRedirect("BookForm.jsp");
  }
  %>
