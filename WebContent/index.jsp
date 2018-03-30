@@ -48,6 +48,7 @@
 			<TH>User Last Name</TH>
 			<TH>Date Issued</TH>
 			<TH>Return date</TH>
+			<TH>Return</TH>
 
 		</TR>
 		<%
@@ -71,6 +72,7 @@
 			<TD><%=user_result.getString(2)%></TD>
 			<TD><%=resultset.getString(4)%></TD>
 			<TD><%=resultset.getString(5)%></TD>
+			<TD><a href="deleteBookIssue.jsp?id=<%=resultset.getString(1)%>">Return</a></td>
 		</TR>
 		<%		}
 			}
